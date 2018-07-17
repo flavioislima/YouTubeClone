@@ -1,6 +1,6 @@
 import React from 'react'
 import { StyleSheet, View } from 'react-native'
-import { StackNavigator } from 'react-navigation'
+import { createStackNavigator } from 'react-navigation'
 import YouTube from 'react-native-youtube'
 
 export default class YouTubeVideo extends React.Component {
@@ -10,7 +10,7 @@ export default class YouTubeVideo extends React.Component {
             backgroundColor: '#000'
         },
         headertitleStyle: {
-            color: '#fff'
+            color: '#aaa'
         }
     }
 

@@ -8,7 +8,7 @@ import {
   Text,
   View
 } from 'react-native';
-import { StackNavigator } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation';
 import YouTube from 'react-native-youtube';
 import Icon from 'react-native-vector-icons';
 import Icons from 'react-native-vector-icons/MaterialCommunityIcons';
@@ -17,7 +17,7 @@ import YouTubeVideo from './YouTubeVideo'
 const apiKey = 'AIzaSyCneUYA7d9STnkWhRefctt5TtDGeOWJF5A'
 const channelId = 'UCA4u8p5rYvuL2-72cAUhXKA';
 const results = 30
-// const url = `https://www.googleapis.com/youtube/v3/search/?key=${apiKey}&channelId=${channelId}&part=snippet,id&order=date&maxResults=${results}`
+const url = `https://www.googleapis.com/youtube/v3/search/?key=${apiKey}&channelId=${channelId}&part=snippet,id&order=date&maxResults=${results}`
 
 class App extends Component {
   constructor(props) {
@@ -28,8 +28,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    const videoId = []
-    fetch(`https://www.googleapis.com/youtube/v3/search/?key=${apiKey}&channelId=${channelId}&part=snippet,id&order=date&maxResults=${results}`)
+    fetch(url)
       .then(res => res.json())
       .then(res => {
         const videoId = []
@@ -51,22 +50,25 @@ class App extends Component {
       <View style={styles.container}>
         <ScrollView>
           <View style={styles.body}>
-
             {this.state.data.map((item, i) =>
               <TouchableHighlight
                 key={item.id.videoId}
                 onPress={() => navigation.navigate('YouTubeVideo', { youtubeId: item.id.videoId })}>
                 <View style={styles.vids}>
+                  {console.log(item.snippet.thumbnails.medium.url)}
                   <Image
                     source={{ uri: item.snippet.thumbnails.medium.url }}
                     style={{ width: 320, height: 180 }} />
                   <View style={styles.vidItems}>
                     <Image
                       source={require('./images/kzg.jpg')}
-                      style={{ width: 40, height: 40, borderRadius: 20, marginRight: 5 }} />
+                      style={{ width: 40, height: 40, borderRadius: 20, marginRight: 15 }} />
                     <Text style={styles.vidText}>{item.snippet.title}</Text>
-                    <Icon name='more-vert' size={20} color='#555' />
+                    {//<Icon name="more-vertical" size={30} color="#900" /> 
+                    }
                   </View>
+
+
                 </View>
               </TouchableHighlight>
             )}
@@ -83,7 +85,7 @@ const styles = StyleSheet.create({
   },
   body: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#555',
     alignItems: 'center',
     padding: 30
   },
@@ -108,8 +110,20 @@ const styles = StyleSheet.create({
   },
 })
 
-export default screens = StackNavigator({
-  Home: { screen: App },
-  YouTubeVideo: { screen: YouTubeVideo }
+export default screens = createStackNavigator({
+  Home: {
+    screen: App,
+    navigationOptions: () => ({
+      title: `Últimos Vídeos`,
+      headerBackTitle: null
+    })
+  },
+  YouTubeVideo: {
+    screen: YouTubeVideo,
+    navigationOptions: () => ({
+      title: `Vídeos`,
+      headerBackTitle: `Voltar`
+    })
+  }
 })
 
