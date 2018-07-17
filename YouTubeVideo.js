@@ -18,10 +18,10 @@ export default class YouTubeVideo extends React.Component {
         return (
             <View style={styles.container}>
                 <YouTube
-                    videoId={this.props.navigation.state.params.youtubeId}  // The YouTube video ID
-                    play={true}             // control playback of video with true/false
-                    fullscreen={true}       // control whether the video should play in fullscreen or inline
-                    loop={false}             // control whether the video should loop when ended
+                    videoId={this.props.navigation.state.params.youtubeId}
+                    play={true}
+                    fullscreen={true}
+                    loop={false}
                     apiKey={'AIzaSyCneUYA7d9STnkWhRefctt5TtDGeOWJF5A'}
                     onReady={e => this.setState({ isReady: true })}
                     onChangeState={e => this.setState({ status: e.state })}
