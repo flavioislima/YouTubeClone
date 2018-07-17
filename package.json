@@ -1,5 +1,5 @@
 {
-  "name": "YouTubeReact",
+  "name": "heavylero-react",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -8,7 +8,10 @@
   },
   "dependencies": {
     "react": "16.3.1",
-    "react-native": "0.55.2"
+    "react-native": "0.55.2",
+    "react-native-vector-icons": "^4.6.0",
+    "react-native-youtube": "^1.1.0",
+    "react-navigation": "^2.6.2"
   },
   "devDependencies": {
     "babel-jest": "22.4.3",
