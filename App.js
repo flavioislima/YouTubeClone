@@ -62,7 +62,7 @@ class App extends Component {
                   <View style={styles.vidItems}>
                     <Image
                       source={require('./images/kzg.jpg')}
-                      style={{ width: 40, height: 40, borderRadius: 20, marginRight: 15 }} />
+                      style={{ width: 40, height: 40, borderRadius: 10, marginRight: 35 }} />
                     <Text style={styles.vidText}>{item.snippet.title}</Text>
                     {//<Icon name="more-vertical" size={30} color="#900" /> 
                     }
@@ -85,27 +85,30 @@ const styles = StyleSheet.create({
   },
   body: {
     flex: 1,
-    backgroundColor: '#555',
+    backgroundColor: '#fff',
     alignItems: 'center',
     padding: 30
   },
   vids: {
-    paddingBottom: 30,
+    paddingBottom: 10,
     width: 320,
     alignItems: 'center',
     backgroundColor: '#fff',
     justifyContent: 'center',
-    borderBottomWidth: 0.6,
-    borderColor: '#aaa'
+    borderWidth: 1,
+    borderColor: '#aaa',
+    marginBottom: 2
   },
   vidItems: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-around',
-    padding: 10
+    marginLeft: 20,
+    marginRight: 20,
+    marginTop: 10
   },
   vidText: {
-    padding: 20,
+    marginLeft: 10,
     color: '#000'
   },
 })
