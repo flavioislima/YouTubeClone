@@ -4,7 +4,10 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "simulator": "react-native run-android",
+    "rebuild": "rm -Rf node_modules & rm package-lock.json & yarn",
+    "test": "jest",
+    "eject": "rm -Rf ios android & react-native eject"
   },
   "dependencies": {
     "react": "16.3.1",
@@ -14,8 +17,12 @@
     "react-navigation": "^2.6.2"
   },
   "devDependencies": {
+    "babel-eslint": "^8.2.6",
     "babel-jest": "22.4.3",
     "babel-preset-react-native": "4.0.0",
+    "eslint": "^5.4.0",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-react-native": "^3.2.1",
     "jest": "22.4.3",
     "react-test-renderer": "16.3.1"
   },
