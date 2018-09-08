@@ -11,7 +11,7 @@
 		00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302C01ABCB91800DB3ED1 /* libRCTImage.a */; };
 		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
-		00E356F31AD99517003FC87E /* YouTubeReactTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* YouTubeReactTests.m */; };
+		00E356F31AD99517003FC87E /* KazagastaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* KazagastaoTests.m */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
 		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
@@ -32,24 +32,24 @@
 		2D02E4C71E0B4AEC006451C7 /* libRCTText-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E941DF850E9000B6D8A /* libRCTText-tvOS.a */; };
 		2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E991DF850E9000B6D8A /* libRCTWebSocket-tvOS.a */; };
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
-		2DCD954D1E0B4F2C00145EB5 /* YouTubeReactTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* YouTubeReactTests.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* KazagastaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* KazagastaoTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
-		3A8AE104C4C44F41B2843527 /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8EC85DAE61E4B65A88C894B /* libRNVectorIcons.a */; };
-		72D2A4D96C8A419B8F106EC9 /* libRCTYouTube.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B875F15D9C204A568C3F92A2 /* libRCTYouTube.a */; };
-		BC77F66F34404C30A46E225E /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E1068156E964761883BEAA9 /* Entypo.ttf */; };
-		D62BB70A77404BC1A9DA60BC /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D65915114054925B3F53A94 /* EvilIcons.ttf */; };
-		2D9EF9A441D540B199B8A834 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0C3CF0B7C034811B06AB22A /* Feather.ttf */; };
-		2463E03ACCAA48C89A9EDD14 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CB8B1D34EC34E009F5AE774 /* FontAwesome.ttf */; };
-		3C9DCE8E6D0040E09F55FF37 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81046A2848B94C56AD71A733 /* Foundation.ttf */; };
-		3B5B78ABBAA648A0864D4C7E /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76B2E48B7F354BE7A449D382 /* Ionicons.ttf */; };
-		0A1812EB33214311B693CB0D /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7CF8589CF9644CABABF8733 /* MaterialCommunityIcons.ttf */; };
-		6C11E955B77141CD9D658256 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A83A050EB38B4293823D8594 /* MaterialIcons.ttf */; };
-		17E7C9B70CA6457FB7DABC1D /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82B4CE7ADE694E4FAC34E2F1 /* Octicons.ttf */; };
-		7E3FB34FD02449B984272867 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB019FF08D804515B2437C0E /* SimpleLineIcons.ttf */; };
-		1705063EB6974762BEB8E6BB /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3653B655CE2E4ACC90DEE339 /* Zocial.ttf */; };
+		7922BBF7AF36478698FA389C /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2176C7A185F473ABD53B02D /* libRNVectorIcons.a */; };
+		2442F61214A44741AEC6B17B /* libRCTYouTube.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4D15D7F62142038B962ED3 /* libRCTYouTube.a */; };
+		49A807603DF44B349B6F8F24 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 978D7BA846964156BAE37810 /* Entypo.ttf */; };
+		CFF4A545809149B1AA6D72B2 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9641BAA0D4A4DE5B04DC693 /* EvilIcons.ttf */; };
+		33BB670503C84D7893915F9A /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 369647E7CE4545E8A2CD7318 /* Feather.ttf */; };
+		7151488F96F14514B5446202 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D07CFF7C3B4D4A24BB9336FF /* FontAwesome.ttf */; };
+		D00068479B804C178E68EDA0 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF80C420E85446CD877AF0EF /* Foundation.ttf */; };
+		78FCDE5EB0FC4E03AA74E6F6 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3C46E536A6F461A949B1C88 /* Ionicons.ttf */; };
+		CD4AB84505F9475AB76B7250 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 196A4DA6F40843FDB3CD2973 /* MaterialCommunityIcons.ttf */; };
+		AA5C5896EA43469C9DB02EE0 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDB0C9D75AA64DEBB02AF134 /* MaterialIcons.ttf */; };
+		4E5A98102210457FA7E9FC4D /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22265A1A808D47089C25ECC6 /* Octicons.ttf */; };
+		8A940FD1D29A455E94BCFC77 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D02D25984564D1CB1F01DC9 /* SimpleLineIcons.ttf */; };
+		48CB60B8900B45F5AF2F81C0 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 689B4D941D5C4BBCA7BC880E /* Zocial.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,7 +93,7 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = YouTubeReact;
+			remoteInfo = Kazagastao;
 		};
 		139105C01AF99BAD00B5F7CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -121,7 +121,7 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "YouTubeReact-tvOS";
+			remoteInfo = "Kazagastao-tvOS";
 		};
 		2D16E6711FA4F8DC00B85C8A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -335,41 +335,41 @@
 		00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTImage.xcodeproj; path = "../node_modules/react-native/Libraries/Image/RCTImage.xcodeproj"; sourceTree = "<group>"; };
 		00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTNetwork.xcodeproj; path = "../node_modules/react-native/Libraries/Network/RCTNetwork.xcodeproj"; sourceTree = "<group>"; };
 		00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVibration.xcodeproj; path = "../node_modules/react-native/Libraries/Vibration/RCTVibration.xcodeproj"; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* YouTubeReactTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YouTubeReactTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* KazagastaoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KazagastaoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* YouTubeReactTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YouTubeReactTests.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* KazagastaoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KazagastaoTests.m; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* YouTubeReact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTubeReact.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = YouTubeReact/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = YouTubeReact/AppDelegate.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Kazagastao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kazagastao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Kazagastao/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Kazagastao/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = YouTubeReact/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = YouTubeReact/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = YouTubeReact/main.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Kazagastao/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Kazagastao/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Kazagastao/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* YouTubeReact-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YouTubeReact-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* YouTubeReact-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YouTubeReact-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E47B1E0B4A5D006451C7 /* Kazagastao-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kazagastao-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* Kazagastao-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kazagastao-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
-		96044D630CDD46359A0D9DE5 /* RNVectorIcons.xcodeproj */ = {isa = PBXFileReference; name = "RNVectorIcons.xcodeproj"; path = "../node_modules/react-native-vector-icons/RNVectorIcons.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		B8EC85DAE61E4B65A88C894B /* libRNVectorIcons.a */ = {isa = PBXFileReference; name = "libRNVectorIcons.a"; path = "libRNVectorIcons.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		AFAABC04E54C495199E87CB9 /* RCTYouTube.xcodeproj */ = {isa = PBXFileReference; name = "RCTYouTube.xcodeproj"; path = "../node_modules/react-native-youtube/RCTYouTube.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		B875F15D9C204A568C3F92A2 /* libRCTYouTube.a */ = {isa = PBXFileReference; name = "libRCTYouTube.a"; path = "libRCTYouTube.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		3E1068156E964761883BEAA9 /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		1D65915114054925B3F53A94 /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F0C3CF0B7C034811B06AB22A /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4CB8B1D34EC34E009F5AE774 /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		81046A2848B94C56AD71A733 /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		76B2E48B7F354BE7A449D382 /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C7CF8589CF9644CABABF8733 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A83A050EB38B4293823D8594 /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		82B4CE7ADE694E4FAC34E2F1 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CB019FF08D804515B2437C0E /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3653B655CE2E4ACC90DEE339 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D1404530BE5A48A79686528A /* RNVectorIcons.xcodeproj */ = {isa = PBXFileReference; name = "RNVectorIcons.xcodeproj"; path = "../node_modules/react-native-vector-icons/RNVectorIcons.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		A2176C7A185F473ABD53B02D /* libRNVectorIcons.a */ = {isa = PBXFileReference; name = "libRNVectorIcons.a"; path = "libRNVectorIcons.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		0E02E4AA29714D8A9D5A26DC /* RCTYouTube.xcodeproj */ = {isa = PBXFileReference; name = "RCTYouTube.xcodeproj"; path = "../node_modules/react-native-youtube/RCTYouTube.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		DE4D15D7F62142038B962ED3 /* libRCTYouTube.a */ = {isa = PBXFileReference; name = "libRCTYouTube.a"; path = "libRCTYouTube.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		978D7BA846964156BAE37810 /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B9641BAA0D4A4DE5B04DC693 /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		369647E7CE4545E8A2CD7318 /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D07CFF7C3B4D4A24BB9336FF /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BF80C420E85446CD877AF0EF /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C3C46E536A6F461A949B1C88 /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		196A4DA6F40843FDB3CD2973 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EDB0C9D75AA64DEBB02AF134 /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		22265A1A808D47089C25ECC6 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4D02D25984564D1CB1F01DC9 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		689B4D941D5C4BBCA7BC880E /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -398,8 +398,8 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				3A8AE104C4C44F41B2843527 /* libRNVectorIcons.a in Frameworks */,
-				72D2A4D96C8A419B8F106EC9 /* libRCTYouTube.a in Frameworks */,
+				7922BBF7AF36478698FA389C /* libRNVectorIcons.a in Frameworks */,
+				2442F61214A44741AEC6B17B /* libRCTYouTube.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,13 +471,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		00E356EF1AD99517003FC87E /* YouTubeReactTests */ = {
+		00E356EF1AD99517003FC87E /* KazagastaoTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* YouTubeReactTests.m */,
+				00E356F21AD99517003FC87E /* KazagastaoTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = YouTubeReactTests;
+			path = KazagastaoTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -508,7 +508,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* YouTubeReact */ = {
+		13B07FAE1A68108700A75B9A /* Kazagastao */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -519,7 +519,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = YouTubeReact;
+			name = Kazagastao;
 			sourceTree = "<group>";
 		};
 		146834001AC3E56700842450 /* Products */ = {
@@ -586,8 +586,8 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
-				96044D630CDD46359A0D9DE5 /* RNVectorIcons.xcodeproj */,
-				AFAABC04E54C495199E87CB9 /* RCTYouTube.xcodeproj */,
+				D1404530BE5A48A79686528A /* RNVectorIcons.xcodeproj */,
+				0E02E4AA29714D8A9D5A26DC /* RCTYouTube.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -604,12 +604,12 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* YouTubeReact */,
+				13B07FAE1A68108700A75B9A /* Kazagastao */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* YouTubeReactTests */,
+				00E356EF1AD99517003FC87E /* KazagastaoTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				BC60433983AF48CA834B249B /* Resources */,
+				63141D5BF2BF4C6BB9B10B74 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -619,10 +619,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* YouTubeReact.app */,
-				00E356EE1AD99517003FC87E /* YouTubeReactTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* YouTubeReact-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* YouTubeReact-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* Kazagastao.app */,
+				00E356EE1AD99517003FC87E /* KazagastaoTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* Kazagastao-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* Kazagastao-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -636,20 +636,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BC60433983AF48CA834B249B /* Resources */ = {
+		63141D5BF2BF4C6BB9B10B74 /* Resources */ = {
 			isa = "PBXGroup";
 			children = (
-				3E1068156E964761883BEAA9 /* Entypo.ttf */,
-				1D65915114054925B3F53A94 /* EvilIcons.ttf */,
-				F0C3CF0B7C034811B06AB22A /* Feather.ttf */,
-				4CB8B1D34EC34E009F5AE774 /* FontAwesome.ttf */,
-				81046A2848B94C56AD71A733 /* Foundation.ttf */,
-				76B2E48B7F354BE7A449D382 /* Ionicons.ttf */,
-				C7CF8589CF9644CABABF8733 /* MaterialCommunityIcons.ttf */,
-				A83A050EB38B4293823D8594 /* MaterialIcons.ttf */,
-				82B4CE7ADE694E4FAC34E2F1 /* Octicons.ttf */,
-				CB019FF08D804515B2437C0E /* SimpleLineIcons.ttf */,
-				3653B655CE2E4ACC90DEE339 /* Zocial.ttf */,
+				978D7BA846964156BAE37810 /* Entypo.ttf */,
+				B9641BAA0D4A4DE5B04DC693 /* EvilIcons.ttf */,
+				369647E7CE4545E8A2CD7318 /* Feather.ttf */,
+				D07CFF7C3B4D4A24BB9336FF /* FontAwesome.ttf */,
+				BF80C420E85446CD877AF0EF /* Foundation.ttf */,
+				C3C46E536A6F461A949B1C88 /* Ionicons.ttf */,
+				196A4DA6F40843FDB3CD2973 /* MaterialCommunityIcons.ttf */,
+				EDB0C9D75AA64DEBB02AF134 /* MaterialIcons.ttf */,
+				22265A1A808D47089C25ECC6 /* Octicons.ttf */,
+				4D02D25984564D1CB1F01DC9 /* SimpleLineIcons.ttf */,
+				689B4D941D5C4BBCA7BC880E /* Zocial.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -658,9 +658,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* YouTubeReactTests */ = {
+		00E356ED1AD99517003FC87E /* KazagastaoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "YouTubeReactTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "KazagastaoTests" */;
 			buildPhases = (
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
@@ -671,14 +671,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = YouTubeReactTests;
-			productName = YouTubeReactTests;
-			productReference = 00E356EE1AD99517003FC87E /* YouTubeReactTests.xctest */;
+			name = KazagastaoTests;
+			productName = KazagastaoTests;
+			productReference = 00E356EE1AD99517003FC87E /* KazagastaoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* YouTubeReact */ = {
+		13B07F861A680F5B00A75B9A /* Kazagastao */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "YouTubeReact" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Kazagastao" */;
 			buildPhases = (
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -689,14 +689,14 @@
 			);
 			dependencies = (
 			);
-			name = YouTubeReact;
+			name = Kazagastao;
 			productName = "Hello World";
-			productReference = 13B07F961A680F5B00A75B9A /* YouTubeReact.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* Kazagastao.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* YouTubeReact-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* Kazagastao-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "YouTubeReact-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Kazagastao-tvOS" */;
 			buildPhases = (
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -707,14 +707,14 @@
 			);
 			dependencies = (
 			);
-			name = "YouTubeReact-tvOS";
-			productName = "YouTubeReact-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* YouTubeReact-tvOS.app */;
+			name = "Kazagastao-tvOS";
+			productName = "Kazagastao-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* Kazagastao-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* YouTubeReact-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* Kazagastao-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "YouTubeReact-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Kazagastao-tvOSTests" */;
 			buildPhases = (
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
@@ -725,9 +725,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "YouTubeReact-tvOSTests";
-			productName = "YouTubeReact-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* YouTubeReact-tvOSTests.xctest */;
+			name = "Kazagastao-tvOSTests";
+			productName = "Kazagastao-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* Kazagastao-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -754,7 +754,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "YouTubeReact" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Kazagastao" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -817,10 +817,10 @@
 			);
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* YouTubeReact */,
-				00E356ED1AD99517003FC87E /* YouTubeReactTests */,
-				2D02E47A1E0B4A5D006451C7 /* YouTubeReact-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* YouTubeReact-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* Kazagastao */,
+				00E356ED1AD99517003FC87E /* KazagastaoTests */,
+				2D02E47A1E0B4A5D006451C7 /* Kazagastao-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* Kazagastao-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1101,17 +1101,17 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				BC77F66F34404C30A46E225E /* Entypo.ttf in Resources */,
-				D62BB70A77404BC1A9DA60BC /* EvilIcons.ttf in Resources */,
-				2D9EF9A441D540B199B8A834 /* Feather.ttf in Resources */,
-				2463E03ACCAA48C89A9EDD14 /* FontAwesome.ttf in Resources */,
-				3C9DCE8E6D0040E09F55FF37 /* Foundation.ttf in Resources */,
-				3B5B78ABBAA648A0864D4C7E /* Ionicons.ttf in Resources */,
-				0A1812EB33214311B693CB0D /* MaterialCommunityIcons.ttf in Resources */,
-				6C11E955B77141CD9D658256 /* MaterialIcons.ttf in Resources */,
-				17E7C9B70CA6457FB7DABC1D /* Octicons.ttf in Resources */,
-				7E3FB34FD02449B984272867 /* SimpleLineIcons.ttf in Resources */,
-				1705063EB6974762BEB8E6BB /* Zocial.ttf in Resources */,
+				49A807603DF44B349B6F8F24 /* Entypo.ttf in Resources */,
+				CFF4A545809149B1AA6D72B2 /* EvilIcons.ttf in Resources */,
+				33BB670503C84D7893915F9A /* Feather.ttf in Resources */,
+				7151488F96F14514B5446202 /* FontAwesome.ttf in Resources */,
+				D00068479B804C178E68EDA0 /* Foundation.ttf in Resources */,
+				78FCDE5EB0FC4E03AA74E6F6 /* Ionicons.ttf in Resources */,
+				CD4AB84505F9475AB76B7250 /* MaterialCommunityIcons.ttf in Resources */,
+				AA5C5896EA43469C9DB02EE0 /* MaterialIcons.ttf in Resources */,
+				4E5A98102210457FA7E9FC4D /* Octicons.ttf in Resources */,
+				8A940FD1D29A455E94BCFC77 /* SimpleLineIcons.ttf in Resources */,
+				48CB60B8900B45F5AF2F81C0 /* Zocial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1168,7 +1168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* YouTubeReactTests.m in Sources */,
+				00E356F31AD99517003FC87E /* KazagastaoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1194,7 +1194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* YouTubeReactTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* KazagastaoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1203,12 +1203,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* YouTubeReact */;
+			target = 13B07F861A680F5B00A75B9A /* Kazagastao */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* YouTubeReact-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* Kazagastao-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1220,7 +1220,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = YouTubeReact;
+			path = Kazagastao;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1234,7 +1234,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = YouTubeReactTests/Info.plist;
+				INFOPLIST_FILE = KazagastaoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1242,7 +1242,7 @@
 					"-lc++",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YouTubeReact.app/YouTubeReact";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kazagastao.app/Kazagastao";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1261,7 +1261,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = YouTubeReactTests/Info.plist;
+				INFOPLIST_FILE = KazagastaoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1269,7 +1269,7 @@
 					"-lc++",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YouTubeReact.app/YouTubeReact";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kazagastao.app/Kazagastao";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1289,14 +1289,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				INFOPLIST_FILE = YouTubeReact/Info.plist;
+				INFOPLIST_FILE = Kazagastao/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_NAME = YouTubeReact;
+				PRODUCT_NAME = Kazagastao;
 				VERSIONING_SYSTEM = "apple-generic";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1311,14 +1311,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = YouTubeReact/Info.plist;
+				INFOPLIST_FILE = Kazagastao/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_NAME = YouTubeReact;
+				PRODUCT_NAME = Kazagastao;
 				VERSIONING_SYSTEM = "apple-generic";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1340,13 +1340,13 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "YouTubeReact-tvOS/Info.plist";
+				INFOPLIST_FILE = "Kazagastao-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.YouTubeReact-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Kazagastao-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -1376,13 +1376,13 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "YouTubeReact-tvOS/Info.plist";
+				INFOPLIST_FILE = "Kazagastao-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.YouTubeReact-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Kazagastao-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -1411,16 +1411,16 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "YouTubeReact-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "Kazagastao-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.YouTubeReact-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Kazagastao-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YouTubeReact-tvOS.app/YouTubeReact-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kazagastao-tvOS.app/Kazagastao-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1446,16 +1446,16 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "YouTubeReact-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "Kazagastao-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.YouTubeReact-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Kazagastao-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YouTubeReact-tvOS.app/YouTubeReact-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kazagastao-tvOS.app/Kazagastao-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1549,7 +1549,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "YouTubeReactTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "KazagastaoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -1558,7 +1558,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "YouTubeReact" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Kazagastao" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1567,7 +1567,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "YouTubeReact-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Kazagastao-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -1576,7 +1576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "YouTubeReact-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Kazagastao-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -1585,7 +1585,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "YouTubeReact" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Kazagastao" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
