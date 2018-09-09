@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Text, View, TouchableOpacity, StyleSheet } from 'react-native'
-import Icon from 'react-native-vector-icons/MaterialIcons'
+import Icon from 'react-native-vector-icons/FontAwesome'
 
 export default class Tabs extends Component {
     render() {
@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
     tabItems: {
         alignItems: 'center',
         justifyContent: 'center',
-        paddingBottom: 5
+        paddingBottom: 1
     },
     tabTitle: {
         fontSize: 11,
