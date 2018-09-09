@@ -4,10 +4,13 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "simulator": "react-native run-android",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
     "rebuild": "rm -Rf node_modules & rm package-lock.json & yarn",
     "test": "jest",
-    "eject": "rm -Rf ios android & react-native eject"
+    "eject": "rm -Rf ios android & react-native eject",
+    "try-release": "react-native run-android --variant=release",
+    "release": "cd ./android && ./gradlew assembleRelease && cd .."
   },
   "dependencies": {
     "react": "16.3.1",
