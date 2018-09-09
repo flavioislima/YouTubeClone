@@ -17,7 +17,7 @@ import Tabs from './Tabs'
 
 const apiKey = 'AIzaSyCneUYA7d9STnkWhRefctt5TtDGeOWJF5A'
 const channelId = 'UCA4u8p5rYvuL2-72cAUhXKA';
-const results = 30
+const results = 50
 const url = `https://www.googleapis.com/youtube/v3/search/?key=${apiKey}&channelId=${channelId}&part=snippet,id&order=date&maxResults=${results}`
 
 class App extends Component {
@@ -97,7 +97,7 @@ export default screens = createStackNavigator({
         <TouchableOpacity>
           <Image
             style={{ height: 40, width: 98, backgroundColor: '#333', marginLeft: 25 }}
-            source={require('./images/header.jpg')}
+            source={require('./images/header.webp')}
           />
         </TouchableOpacity>
       ),
@@ -125,7 +125,7 @@ export default screens = createStackNavigator({
         <TouchableOpacity>
           <Image
             style={{ height: 40, width: 98, backgroundColor: '#333', marginLeft: 25 }}
-            source={require('./images/header.jpg')}
+            source={require('./images/header.webp')}
           />
         </TouchableOpacity>
       ),
@@ -145,7 +145,7 @@ export default screens = createStackNavigator({
         <TouchableOpacity>
           <Image
             style={{ height: 40, width: 98, backgroundColor: '#333', marginLeft: 25 }}
-            source={require('./images/header.jpg')}
+            source={require('./images/header.webp')}
           />
         </TouchableOpacity>
       ),
