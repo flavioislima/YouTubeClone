@@ -10,7 +10,8 @@
     "test": "jest",
     "eject": "rm -Rf ios android & react-native eject",
     "try-release": "react-native run-android --variant=release",
-    "release": "cd ./android && ./gradlew assembleRelease && cd .."
+    "release": "cd ./android && ./gradlew assembleRelease",
+    "clean": "cd ./android && ./gradlew clean build"
   },
   "dependencies": {
     "react": "16.3.1",
