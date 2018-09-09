@@ -16,7 +16,7 @@ export default class ListVideos extends React.Component {
                             style={{ width: 320, height: 180 }} />
                         <View style={styles.vidItems}>
                             <Image
-                                source={require('./images/kzg.jpg')}
+                                source={require('./images/kzg.webp')}
                                 style={{ width: 40, height: 40, borderRadius: 10, marginRight: 25 }} />
                             <Text style={styles.vidText}>{item.snippet.title}</Text>
                         </View>
