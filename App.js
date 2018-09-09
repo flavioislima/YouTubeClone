@@ -14,11 +14,12 @@ import ListVideos from './ListVideos'
 import News from './News'
 import About from './About'
 import Tabs from './Tabs'
+import api from './config'
 
-const apiKey = 'AIzaSyCneUYA7d9STnkWhRefctt5TtDGeOWJF5A'
-const channelId = 'UCA4u8p5rYvuL2-72cAUhXKA';
+const header = require('./images/header.webp')
+const channelId = 'UCA4u8p5rYvuL2-72cAUhXKA'
 const results = 50
-const url = `https://www.googleapis.com/youtube/v3/search/?key=${apiKey}&channelId=${channelId}&part=snippet,id&order=date&maxResults=${results}`
+const url = `https://www.googleapis.com/youtube/v3/search/?key=${api}&channelId=${channelId}&part=snippet,id&order=date&maxResults=${results}`
 
 class App extends Component {
   constructor(props) {
@@ -96,8 +97,8 @@ export default screens = createStackNavigator({
       headerLeft: (
         <TouchableOpacity>
           <Image
-            style={{ height: 40, width: 98, backgroundColor: '#333', marginLeft: 25 }}
-            source={require('./images/header.webp')}
+            style={{ height: 33, width: 70, backgroundColor: '#333', marginLeft: 25 }}
+            source={header}
           />
         </TouchableOpacity>
       ),
@@ -124,8 +125,8 @@ export default screens = createStackNavigator({
       headerLeft: (
         <TouchableOpacity>
           <Image
-            style={{ height: 40, width: 98, backgroundColor: '#333', marginLeft: 25 }}
-            source={require('./images/header.webp')}
+            style={{ height: 30, width: 70, backgroundColor: '#333', marginLeft: 25 }}
+            source={header}
           />
         </TouchableOpacity>
       ),
@@ -144,8 +145,8 @@ export default screens = createStackNavigator({
       headerLeft: (
         <TouchableOpacity>
           <Image
-            style={{ height: 40, width: 98, backgroundColor: '#333', marginLeft: 25 }}
-            source={require('./images/header.webp')}
+            style={{ height: 30, width: 70, backgroundColor: '#333', marginLeft: 25 }}
+            source={header}
           />
         </TouchableOpacity>
       ),
